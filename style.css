@@ -25,14 +25,25 @@ body {
   margin-right: auto;
 }
 
+h1.site-title {
+  font-family: 'Fashion Victim';
+  font-size: 6rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+h1.site-title span {
+  margin: 0 2rem;
+}
+
 header {
-  header {
-    padding-top: 4rem;
-    background-image: url(img/suit.jpg), url(img/bg.jpg);
-    background-position: center, center;
-    background-repeat: no-repeat, repeat-x;
-    height: 360px;
-  }
+
+  padding-top: 4rem;
+  background-image: url(img/suit.jpg), url(img/bg.jpg);
+  background-position: center, center;
+  background-repeat: no-repeat, repeat-x;
+  height: 360px;
+
 }
 
 .product {
